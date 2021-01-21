@@ -14,6 +14,6 @@ jobs:
       - name: Delete workflow runs
         uses: ActionsRML/delete-workflow-runs@main
         with:
-          token: b3b24124f75dc4aab238808d48928a39fc0be1e7
+          token: ${{secrets.PAT }}
           repository: myJob
           retain_days: 10
